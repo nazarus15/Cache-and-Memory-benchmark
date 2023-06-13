@@ -1,0 +1,11 @@
+Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
+Intel64 Family 6 Model 126 Stepping 5
+32261
+4
+8
+1498 MHZ
+NBHQ71100C018000366600
+192 , 128 Kb
+2048 Kb
+8192 Kb
+15,79 Gb

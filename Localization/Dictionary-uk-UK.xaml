@@ -1,0 +1,53 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:System="clr-namespace:System;assembly=mscorlib">
+
+    <System:String x:Key="Title">Тестування Кешу і Пам'яті</System:String>
+    <System:String x:Key="Close_btn">Закрити</System:String>
+    <System:String x:Key="Home_btn">Головна</System:String>
+    <System:String x:Key="Benchmark_btn">Тестування</System:String>
+    <System:String x:Key="History_btn">Історія</System:String>
+    <System:String x:Key="Language" xml:space="preserve">Мова: </System:String>
+    <System:String x:Key="History">Історія тестування:</System:String>
+    <System:String x:Key="Benchmark_speed" xml:space="preserve">Протестувати швидкість</System:String>
+    <System:String x:Key="CPU_Name">Назва:</System:String>
+    <System:String x:Key="CPU_Cores">Ядра:</System:String>
+    <System:String x:Key="CPU_Processors">Логічні процесори:</System:String>
+    <System:String x:Key="English">Англійська</System:String>
+    <System:String x:Key="Max_Clock" xml:space="preserve">Макс. тактова частота: </System:String>
+    <System:String x:Key="CPU_and_Cache">ЦП і Кеш</System:String>
+    <System:String x:Key="Ukrainian">Українська</System:String>
+    <System:String x:Key="Motherboard" xml:space="preserve">Материнська плата с.н. : </System:String>
+    <System:String x:Key="Cache_size">Розмір кешу</System:String>
+    <System:String x:Key="L1_size">Розмір L1:</System:String>
+    <System:String x:Key="L2_size">Розмір L2:</System:String>
+    <System:String x:Key="L3_size">Розмір L3:</System:String>
+    <System:String x:Key="DRAM_size">Розмір DRAM:</System:String>
+    <System:String x:Key="Read">Читання</System:String>
+    <System:String x:Key="Save">Зберегти</System:String>
+    <System:String x:Key="Start">Почати тестування</System:String>
+    <System:String x:Key="L1_cache">L1 Кеш:</System:String>
+    <System:String x:Key="L2_cache">L2 Кеш:</System:String>
+    <System:String x:Key="L3_cache">L3 Кеш:</System:String>
+    <System:String x:Key="About_app_2">Додаток має 4 вікна для комунікаіцї з нею.</System:String>
+    <System:String x:Key="Memory_speed">Пам'ять:</System:String>
+    <System:String x:Key="Write">Запис</System:String>
+    <System:String x:Key="Copy">Копіювання</System:String>
+    <System:String x:Key="Latency">Затримка</System:String>
+    <System:String x:Key="About_app">Про програму:</System:String>
+    <System:String x:Key="About_app_1">Програма призначена для тестування кешу і пам'яті комп'ютера.</System:String>
+    <System:String x:Key="About_app_4">почати тестування</System:String>
+    <System:String x:Key="About_app_5">Вікно 'Головна' містить дані про характеристики комп'ютера та має функції зберегти та</System:String>
+    <System:String x:Key="About_app_6">Вікно 'Тестування' відображає дані про швидкість і затримку кешу і пам'яті, та також'</System:String>
+    <System:String x:Key="About_app_7">володіє функціями збереження сторінки та стартом тестування.</System:String>
+    <System:String x:Key="About_app_8" xml:space="preserve">Третє вікно, вікно 'Історії', відображає колишні тестування на даному пристрої та </System:String>
+    <System:String x:Key="About_app_9" xml:space="preserve"> сортує за датою, показуючи спершу найновіші тести.</System:String>
+    <System:String x:Key="About_app_10" xml:space="preserve">Четверте вікно, відкривається по натисканню на шестерню у лівому верхньому куті, </System:String>
+    <System:String x:Key="About_app_11">тут можна змінити мову та прочитати інформацію про програму.</System:String>
+    <System:String x:Key="About_app_13">Версія:</System:String>
+    <System:String x:Key="About_app_14" xml:space="preserve">Автор: </System:String>
+    <System:String x:Key="About_app_15">Палій Назарій</System:String>
+    <System:String x:Key="About_app_16" xml:space="preserve">Мова програмування: </System:String>
+    <System:String x:Key="About_app_17">Cередовище розробки:</System:String>
+    
+</ResourceDictionary>

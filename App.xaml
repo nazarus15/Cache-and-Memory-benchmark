@@ -1,0 +1,40 @@
+﻿<Application x:Class="Cache_Memory_Benchmark.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Cache_Memory_Benchmark"
+             xmlns:viewModel ="clr-namespace:Cache_Memory_Benchmark.MVVM.ViewModel"
+             xmlns:view ="clr-namespace:Cache_Memory_Benchmark.MVVM.View"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme/ButtonTheme.xaml"/>
+                <ResourceDictionary Source="Localization/Dictionary-en-US.xaml"/>
+                <ResourceDictionary Source="Localization/Dictionary-uk-UK.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
+                <view:HomeView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:BenchmarkViewModel}">
+                <view:BenchmarkView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:SettingsViewModel}">
+                <view:SettingsView/>
+            </DataTemplate>
+            
+            <DataTemplate DataType="{x:Type viewModel:UsageViewModel}">
+                <view:UsageView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:HistoryViewModel1}">
+                <view:HistoryView/>
+            </DataTemplate>
+
+        </ResourceDictionary>
+      
+    </Application.Resources>
+</Application>

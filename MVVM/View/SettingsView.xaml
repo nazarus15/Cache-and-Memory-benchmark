@@ -1,0 +1,140 @@
+﻿<UserControl x:Class="Cache_Memory_Benchmark.MVVM.View.SettingsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Cache_Memory_Benchmark.MVVM.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="580" d:DesignWidth="600"
+    xmlns:System="clr-namespace:System;assembly=mscorlib">
+    <UserControl.Resources>
+        <System:String x:Key="About_app_3">Вікно 'Головна' містить дані про характеристики комп'ютера та має функції зберегти і</System:String>
+        <System:String x:Key="About_app_12" xml:space="preserve">Назва програми: </System:String>
+    </UserControl.Resources>
+
+        <StackPanel Margin="5">
+            <Grid>
+                <TextBlock Text="{DynamicResource Language}"
+                           Foreground="White"
+                           Margin="0 20 120 0"
+                           HorizontalAlignment="Center"
+                           FontSize="16"
+                           FontWeight="Bold"/>
+                <ComboBox Name="ComboBox" Height="25" 
+                          Width="120"
+                          Margin="120 20 0 0"
+                          HorizontalAlignment="Center"
+                          SelectionChanged="ComboBox_SelectionChanged">
+                <ComboBoxItem Content="{DynamicResource English}"
+                              x:Name="English_Btn"
+                              Tag="en-US"/>
+                <ComboBoxItem Content="{DynamicResource Ukrainian}"
+                              x:Name="Ukrainian_Btn"
+                              Tag="uk-UK"/>
+            </ComboBox>
+            </Grid>
+        <Line X1="50" Y1="20" X2="550" Y2="20" Stroke="White" StrokeThickness="2" />
+
+        <Grid Margin="15">
+            <TextBlock Text="{DynamicResource About_app}"
+                       Foreground="White"
+                       FontSize="16"
+                       FontWeight="Bold"/>
+        </Grid>
+            
+        <Grid Margin="15 0 15 0 ">
+            <TextBlock Text="{DynamicResource About_app_1}"
+                       Foreground="White"
+                       FontSize="14"/>
+
+
+        </Grid>
+
+        <Grid Margin="15 5 15 0 ">
+            <TextBlock Text="{DynamicResource About_app_2}"
+                       Foreground="White"
+                       FontSize="14"/>
+
+        </Grid>
+            
+        <Grid Margin="15 5 15 0 ">
+            <TextBlock 
+                       Height="40"
+                       Foreground="White"
+                       FontSize="14">
+                <Run Text="{DynamicResource About_app_5}"></Run>
+                <LineBreak/>
+                <Run Text="{DynamicResource About_app_4}"></Run>
+            </TextBlock>
+        </Grid>
+
+        <Grid Margin="15 5 15 0 ">
+            <TextBlock Height="40"
+                       Foreground="White"
+                       FontSize="14">
+                <Run Text="{DynamicResource About_app_6}"></Run>
+                <LineBreak/>
+                <Run Text="{DynamicResource About_app_7}"></Run>
+            </TextBlock>
+
+        </Grid>
+
+        <Grid Margin="15 5 15 0 ">
+            <TextBlock Height="40"
+                       Foreground="White"
+                       FontSize="14">
+                <Run Text="{DynamicResource About_app_8}"> </Run>
+                <LineBreak/>
+                <Run Text="{DynamicResource About_app_9}"></Run>
+            </TextBlock>
+        </Grid>
+            
+        <Grid Margin="15 5 15 0 ">
+            <TextBlock Height="40"
+                       Foreground="White"
+                       FontSize="14">
+                <Run Text="{DynamicResource About_app_10}"></Run>
+                <LineBreak/>
+                <Run Text="{DynamicResource About_app_11}"></Run>
+            </TextBlock>
+        </Grid>
+        <Line X1="50" Y1="20" X2="550" Y2="20" Stroke="White" StrokeThickness="2" />
+            
+        <Grid Margin="15 15 15 0 ">
+            <TextBlock Height="40"
+                       Foreground="White"
+                       FontSize="14">
+                <Run FontWeight="Bold" Text="{DynamicResource About_app_12}"> </Run>
+                <Run> Cache and Memory Benchmark</Run>
+                <LineBreak/>
+                <Run FontWeight="Bold" Text="{DynamicResource About_app_13}"></Run>
+                <Run>Beta 1.0</Run>
+            </TextBlock>
+        </Grid>
+
+        <Grid Margin="15 5 15 0 ">
+            <TextBlock Height="40"
+                       Foreground="White"
+                       FontSize="14">
+                <Run FontWeight="Bold" Text="{DynamicResource About_app_14}"> </Run>
+                <Run Text="{DynamicResource About_app_15}"> </Run>
+                <LineBreak/>
+                <Run FontWeight="Bold">Gmail:</Run>
+                <Run>nzpaliy3@gmail.com</Run>
+            </TextBlock>
+        </Grid>
+
+        <Grid Margin="15 5 15 0 ">
+            <TextBlock Height="40"
+                       Foreground="White"
+                       FontSize="14">
+                <Run FontWeight="Bold" Text="{DynamicResource About_app_16}"> </Run>
+                <Run> C#</Run>
+                <LineBreak/>
+                <Run FontWeight="Bold" Text="{DynamicResource About_app_17}"></Run>
+                <Run>Visual Studio 2022</Run>
+            </TextBlock>
+        </Grid>
+
+    </StackPanel>
+</UserControl>

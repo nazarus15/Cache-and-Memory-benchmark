@@ -1,0 +1,115 @@
+Debug template v0.00.02. (Windows x64).
+
+NUMA CPU&RAM Benchmarks. Console Edition. v0.02.02 for Windows x64. (C) 2023 Ilya Manusov.
+Get command line parameters...done.
+Load API...done.
+Detect processor features...done.
+Detect SMP and cache levels...done.
+Detect memory...done.
+Detect paging...done.
+Initializing domains builder...done.
+Initializing threads builder...done.
+Measure TSC clock...done.
+Get library data...done.
+NCRB performance library. v0.02.02 for Windows x64. (C) 2023 Ilya Manusov.
+Run memory benchmark scenario.
+
+Asm method ID=15, bytes per instruction BPI=64.
+TSC frequency F=1498.245 MHz, period T=0.667 ns.
+Cache points for data read/write:
+L1=48 KB, L2=512 KB, L3=8192 KB, L4=0 KB.
+CPU core count=4, HyperThreading=1.
+
+Memory allocation...
+NUMA-unaware mode, list allocated at base = 00007FF6A2086D40h.
+--------------------------------------------------------------------------------
+ ID  allocated base    allocated size    original (all hex)
+--------------------------------------------------------------------------------
+  0  00000153E9810000  000000000C000000  00000153E9810000
+--------------------------------------------------------------------------------
+
+Threads allocation...
+Threads entries created = 6 , list allocated at base = 00000153E9095590h
+--------------------------------------------------------------------------------
+ ID  (values hex)
+--------------------------------------------------------------------------------
+  0  thread=00000000000000D8 rxevent=0000000000000118 txevent=000000000000011C
+     base1 =00000153E9810000 base2  =00000153EA810000 sizeins=0000000000004000
+     repeat=0000000000002710 large page mode =0001    method id =000F
+     optimal affinity group\mask  = 0000\0000000000000000
+     original affinity group\mask = 0000\0000000000000000
+     control set pointer          = 00000153E9088BC0
+
+  1  thread=0000000000000120 rxevent=0000000000000124 txevent=0000000000000128
+     base1 =00000153EB810000 base2  =00000153EC810000 sizeins=0000000000004000
+     repeat=0000000000002710 large page mode =0001    method id =000F
+     optimal affinity group\mask  = 0000\0000000000000000
+     original affinity group\mask = 0000\0000000000000000
+     control set pointer          = 00000153E9088BC0
+
+  2  thread=000000000000012C rxevent=0000000000000130 txevent=0000000000000134
+     base1 =00000153ED810000 base2  =00000153EE810000 sizeins=0000000000004000
+     repeat=0000000000002710 large page mode =0001    method id =000F
+     optimal affinity group\mask  = 0000\0000000000000000
+     original affinity group\mask = 0000\0000000000000000
+     control set pointer          = 00000153E9088BC0
+
+  3  thread=0000000000000138 rxevent=000000000000013C txevent=0000000000000140
+     base1 =00000153EF810000 base2  =00000153F0810000 sizeins=0000000000004000
+     repeat=0000000000002710 large page mode =0001    method id =000F
+     optimal affinity group\mask  = 0000\0000000000000000
+     original affinity group\mask = 0000\0000000000000000
+     control set pointer          = 00000153E9088BC0
+
+  4  thread=0000000000000144 rxevent=0000000000000148 txevent=0000000000000150
+     base1 =00000153F1810000 base2  =00000153F2810000 sizeins=0000000000004000
+     repeat=0000000000002710 large page mode =0001    method id =000F
+     optimal affinity group\mask  = 0000\0000000000000000
+     original affinity group\mask = 0000\0000000000000000
+     control set pointer          = 00000153E9088BC0
+
+  5  thread=0000000000000154 rxevent=0000000000000158 txevent=000000000000015C
+     base1 =00000153F3810000 base2  =00000153F4810000 sizeins=0000000000004000
+     repeat=0000000000002710 large page mode =0001    method id =000F
+     optimal affinity group\mask  = 0000\0000000000000000
+     original affinity group\mask = 0000\0000000000000000
+     control set pointer          = 00000153E9088BC0
+--------------------------------------------------------------------------------
+
+Running threads...
+Runned with delta TSC = 0000000029B8CD6Bh.
+Allocate statistics arrays...done.
+Bandwidth statistics, base=00000153E9094680h, size=0000000000000080h.
+Latency statistics,   base=00000153E909DA70h, size=0000000000000080h.
+Run: method=15, threads=6, repeats=ADAPTIVE
+     page mode=1, page size=4.000 KB
+     start=1.000 MB, end=16.000 MB, delta=1.000 MB, bpi=64 bytes.
+[ read AVX512 VMOVAPD ]
+--------------------------------------------------------------------------------
+ #     size        CPI        nsPI      MBPS
+--------------------------------------------------------------------------------
+ 1     1M          5.271      3.518     109150.684 
+ 2     2M          10.460     6.982     55000.222  
+ 3     3M          11.721     7.823     49085.290  
+ 4     4M          14.965     9.989     38444.126  
+ 5     5M          15.084     10.068    38140.535  
+ 6     6M          14.146     9.441     40671.981  
+ 7     7M          13.201     8.811     43583.545  
+ 8     8M          13.861     9.252     41506.548  
+ 9     9M          14.115     9.421     40761.327  
+ 10    10M         13.855     9.248     41524.493  
+ 11    11M         14.163     9.453     40622.315  
+ 12    12M         14.850     9.912     38742.194  
+ 13    13M         14.113     9.419     40766.939  
+ 14    14M         14.541     9.705     39566.073  
+ 15    15M         14.793     9.873     38892.666  
+ 16    16M         15.203     10.147    37842.813  
+--------------------------------------------------------------------------------
+Bandwidth statistics ( megabytes per second ):
+max=109150.684,  min=37842.813,  average=45893.375,  median=40716.654.
+--------------------------------------------------------------------------------
+Delete local objects...done.
+
+Delete headblock global objects...done.
+
+OK.

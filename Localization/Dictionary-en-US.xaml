@@ -1,0 +1,52 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:System="clr-namespace:System;assembly=mscorlib">
+    
+    <System:String x:Key="Title">Cache and Memory Benchmark</System:String>
+    <System:String x:Key="Close_btn">Close</System:String>
+    <System:String x:Key="Home_btn">Home</System:String>
+    <System:String x:Key="Benchmark_btn">Benchmark</System:String>
+    <System:String x:Key="History_btn">History</System:String>
+    <System:String x:Key="Language" xml:space="preserve">Language: </System:String>
+    <System:String x:Key="History">History of testing:</System:String>
+    <System:String x:Key="Benchmark_speed" xml:space="preserve">Benchmark cache and memory speed </System:String>
+    <System:String x:Key="CPU_Name">Name:</System:String>
+    <System:String x:Key="CPU_Cores">Cores:</System:String>
+    <System:String x:Key="CPU_Processors">Logical Processors:</System:String>
+    <System:String x:Key="English">English</System:String>
+    <System:String x:Key="Max_Clock" xml:space="preserve">Max Clock Speed: </System:String>
+    <System:String x:Key="CPU_and_Cache">CPU and Cache</System:String>
+    <System:String x:Key="Ukrainian">Ukrainian</System:String>
+    <System:String x:Key="Motherboard" xml:space="preserve">Motherboard S.N. : </System:String>
+    <System:String x:Key="Cache_size">Cache Size</System:String>
+    <System:String x:Key="L1_size">L1 Size:</System:String>
+    <System:String x:Key="L2_size">L2 Size:</System:String>
+    <System:String x:Key="L3_size">L3 Size:</System:String>
+    <System:String x:Key="DRAM_size">DRAM Size:</System:String>
+    <System:String x:Key="Read">Read</System:String>
+    <System:String x:Key="Save">Save</System:String>
+    <System:String x:Key="Start">Start Benchmark</System:String>
+    <System:String x:Key="L1_cache">L1 Cache:</System:String>
+    <System:String x:Key="L2_cache">L2 Cache:</System:String>
+    <System:String x:Key="L3_cache">L3 Cache:</System:String>
+    <System:String x:Key="Memory_speed">Memory:</System:String>
+    <System:String x:Key="Write">Write</System:String>
+    <System:String x:Key="Copy">Copy</System:String>
+    <System:String x:Key="Latency">Latency</System:String>
+    <System:String x:Key="About_app_2">The application has 4 windows for communication.</System:String>
+    <System:String x:Key="About_app">About program:</System:String>
+    <System:String x:Key="About_app_1">The program is designed to test the computer's cache and memory.</System:String>
+    <System:String x:Key="About_app_4">to save and begin testing.</System:String>
+    <System:String x:Key="About_app_5">The Home window contains info about the computer's characteristics and has functions</System:String>
+    <System:String x:Key="About_app_6">The Benchmark window displays data on cache and memory speed and latency, also</System:String>
+    <System:String x:Key="About_app_7">has the functions of saving the page and starting testing.</System:String>
+    <System:String x:Key="About_app_8" xml:space="preserve">The third window, the History window, displays previous tests on this device and sorts</System:String>
+    <System:String x:Key="About_app_9" xml:space="preserve">by date, showing the most recent tests first.</System:String>
+    <System:String x:Key="About_app_10" xml:space="preserve">The fourth window opens by clicking on the gear in the upper left corner, </System:String>
+    <System:String x:Key="About_app_11">here you can change the language and read information about the program.</System:String>
+    <System:String x:Key="About_app_13">Version:</System:String>
+    <System:String x:Key="About_app_14" xml:space="preserve">Developer: </System:String>
+    <System:String x:Key="About_app_15">Palii Nazarii</System:String>
+    <System:String x:Key="About_app_16" xml:space="preserve">Programming language:</System:String>
+    <System:String x:Key="About_app_17">IDE:</System:String>
+</ResourceDictionary>
